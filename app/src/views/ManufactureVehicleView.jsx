@@ -73,7 +73,7 @@ const ManufactureVehicleView = ({
     if (isOEM) {
       _accountActions.fetchManufacturerName(drizzle, currentWallet);
     }
-  }, [isOEM, currentWallet, accountActions, drizzle]);
+  }, [isOEM, currentWallet, _accountActions, drizzle]);
 
   return (
     <Grid>

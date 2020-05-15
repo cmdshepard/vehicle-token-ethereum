@@ -4,7 +4,7 @@ import Vehicles from '../contracts/Vehicles.json';
 
 const options = {
   web3: {
-    customProvider: new Web3(window.ethereum || new Fortmatic('pk_test_91E1B2CCA46E4EC0').getProvider()),
+    customProvider: new Web3(new Fortmatic('pk_test_91E1B2CCA46E4EC0').getProvider()),
     block: false,
     fallback: {
       type: 'ws',

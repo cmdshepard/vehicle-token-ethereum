@@ -26,6 +26,7 @@
     "solhint": "^3.0.0"
   },
   "devDependencies": {
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "truffle-hdwallet-provider": "^1.0.17"
   }
 }

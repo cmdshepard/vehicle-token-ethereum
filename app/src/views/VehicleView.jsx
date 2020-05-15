@@ -25,7 +25,7 @@ const VehicleView = ({
 
   React.useEffect(() => {
     load(drizzle, vin);
-  }, [_vehicleActions, drizzle, vin]);
+  }, [drizzle, vin, load]);
 
   return (
     <Grid>
