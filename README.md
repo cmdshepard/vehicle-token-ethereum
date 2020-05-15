@@ -1,4 +1,4 @@
-# International Vehicle Token
+# International Vehicle Tokens
 A primitive supply chain solution for automotive vehicles on the [Ethereum blockchain](https://ethereum.org/).
 
 ## Context
