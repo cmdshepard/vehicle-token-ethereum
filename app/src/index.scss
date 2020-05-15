@@ -1,0 +1,30 @@
+@import '~carbon-components/scss/globals/scss/styles.scss';
+
+$feature-flags: (
+  ui-shell: true,
+);
+
+body, html {
+  background: $ui-background;
+}
+
+h1, h2 {
+  margin-bottom: $spacing-06;
+}
+
+p {
+  margin-bottom: $spacing-03;
+}
+
+.col {
+  margin-bottom: $spacing-08;
+}
+
+.bx--select, .bx--select-input__wrapper, .bx--select-input {
+  width: 100%;
+  max-width: unset;
+}
+
+.text-center {
+  text-align: center;
+}
